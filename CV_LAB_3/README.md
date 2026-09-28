@@ -17,11 +17,15 @@ In this experiment, Average Filtering is applied to images using different kerne
 
 ### OpenCV Average Filtering
 
+The following filter sizes are applied:
+
 - Average Filter 3 × 3
 - Average Filter 5 × 5
 - Average Filter 7 × 7
 
 ### Manual Average Filtering
+
+The average filter is implemented using NumPy with the following kernel sizes:
 
 - Average Filter 3 × 3
 - Average Filter 5 × 5
@@ -30,13 +34,13 @@ In this experiment, Average Filtering is applied to images using different kerne
 
 ## Outputs
 
-### OpenCV Average Filter
+### Output 1 – Manual Average Filtering
 
-![OpenCV Output](opencv_output.png)
+![Manual Average Filter Output](manual_output.png)
 
-### Manual Average Filter
+### Output 2 – OpenCV Average Filtering
 
-![Manual Filter Output](manual_output.png)
+![OpenCV Average Filter Output](opencv_output.png)
 
 ## Result
 
